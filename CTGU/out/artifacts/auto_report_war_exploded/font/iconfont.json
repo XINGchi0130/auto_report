@@ -1,0 +1,30 @@
+{
+  "id": "3296923",
+  "name": "月考核",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7140587",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "1115059",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "1320054",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

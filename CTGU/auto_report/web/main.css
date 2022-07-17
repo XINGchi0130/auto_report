@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('font/iconfont.woff2?t=1657784686666') format('woff2'),
+    url('font/iconfont.woff?t=1657784686666') format('woff'),
+    url('font/iconfont.ttf?t=1657784686666') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/background.jpg');
+    background-size: 100% 100%;
+}
+.bigBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    width: 320px;
+    height: 300px;
+    border-radius: 55px;
+    background: linear-gradient(145deg, pink, orange);
+    box-shadow: 3px 3px 7px #898989, -3px -3px 40px #ffffff;
+}
+
+.BoxTittle {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 55px;
+}
+
+.BoxUser,
+.BoxPwd,
+.BoxEmail,
+.BoxButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+}
+
+.User,
+.Pwd,
+.Email{
+    text-indent: 9px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(242, 235, 33, 0.6);
+    background-color: transparent;
+}
+
+.Button:hover {
+    cursor: pointer;
+}
+
+.Button {
+    color: azure;
+    height: 35px;
+    width: 140px;
+    border-radius: 33px;
+    background: #31648c;
+    box-shadow: inset -17px 17px 34px #2e5e84, inset 17px -17px 34px #346a94;
+}
+
+.userIcon{
+    font-size: 18px;
+    color: #8ea0ae;
+}
+
+.emailIcon{
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+.pwdIcon{
+    color: #60a622;
+    font-size: 18px;
+}
